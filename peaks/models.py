@@ -10,5 +10,8 @@ class Peak(models.Model):
     email_address = models.EmailField(max_length=200)
     peak_image = models.ImageField(null=True)
 
+
     def __str__(self):
         return self.peak_name
+
+
